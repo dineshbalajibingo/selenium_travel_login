@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19188" started-at="2017-08-11T17:39:42Z" finished-at="2017-08-11T17:40:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19188" started-at="2017-08-11T17:39:42Z" finished-at="2017-08-11T17:40:01Z">
+      <class name="com.phptravels.testcases.LoginPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.phptravels.testcases.LoginPageTest@3098cf3b]" name="init" is-config="true" duration-ms="14757" started-at="2017-08-11T12:39:27Z" finished-at="2017-08-11T12:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.phptravels.testcases.LoginPageTest@3098cf3b]" name="beforeTest" is-config="true" duration-ms="71" started-at="2017-08-11T12:39:42Z" finished-at="2017-08-11T12:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login(java.util.Hashtable)[pri:0, instance:com.phptravels.testcases.LoginPageTest@3098cf3b]" name="login" duration-ms="19061" started-at="2017-08-11T12:39:42Z" data-provider="getLoginData" finished-at="2017-08-11T12:40:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin@phptravels.com, correct_Password=demoadmin, wrong_Password=demoadming, Error=Invalid Login Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phptravels.testcases.LoginPageTest@3098cf3b]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-08-11T12:40:01Z" finished-at="2017-08-11T12:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
